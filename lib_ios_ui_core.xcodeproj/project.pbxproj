@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		B135BE7E4991F1879FA5DDDA /* Pods_lib_ios_ui_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6309CD32EDFE2A417D62C9B /* Pods_lib_ios_ui_core.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C704A32A2A9269E200675174 /* lib_ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C704A3292A9269E200675174 /* lib_ios_core.framework */; };
-		C73DDCEE2A9B5B9F00FF1DD8 /* UiLazyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73DDCED2A9B5B9F00FF1DD8 /* UiLazyState.swift */; };
+		C73DDCEE2A9B5B9F00FF1DD8 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73DDCED2A9B5B9F00FF1DD8 /* Dummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A0B28CE2FEC3C5A2769712A /* Pods-lib_ios_ui_core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lib_ios_ui_core.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-lib_ios_ui_core/Pods-lib_ios_ui_core.release.xcconfig"; sourceTree = "<group>"; };
 		215AFC737476457C75A05502 /* Pods-lib_ios_ui_core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lib_ios_ui_core.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-lib_ios_ui_core/Pods-lib_ios_ui_core.debug.xcconfig"; sourceTree = "<group>"; };
 		C704A3292A9269E200675174 /* lib_ios_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = lib_ios_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C73DDCED2A9B5B9F00FF1DD8 /* UiLazyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiLazyState.swift; sourceTree = "<group>"; };
+		C73DDCED2A9B5B9F00FF1DD8 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		C7757A632A925E97008B1DDC /* lib_ios_ui_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lib_ios_ui_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6309CD32EDFE2A417D62C9B /* Pods_lib_ios_ui_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lib_ios_ui_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 		C73DDCEC2A9B5B8800FF1DD8 /* type */ = {
 			isa = PBXGroup;
 			children = (
-				C73DDCED2A9B5B9F00FF1DD8 /* UiLazyState.swift */,
+				C73DDCED2A9B5B9F00FF1DD8 /* Dummy.swift */,
 			);
 			path = type;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C73DDCEE2A9B5B9F00FF1DD8 /* UiLazyState.swift in Sources */,
+				C73DDCEE2A9B5B9F00FF1DD8 /* Dummy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
