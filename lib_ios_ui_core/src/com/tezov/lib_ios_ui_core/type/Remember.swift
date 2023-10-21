@@ -17,7 +17,7 @@ import SwiftUI
         self._value = State(wrappedValue: Lazy(wrappedValue()))
     }
     
-    public init(_ value: @escaping @autoclosure () -> T) {
+    public init(_ value: @escaping () -> T) {
         self._value = State(wrappedValue: Lazy(value()))
     }
     
