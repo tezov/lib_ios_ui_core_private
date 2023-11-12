@@ -11,6 +11,7 @@
 		C7036FF82AE52ADC00A05044 /* StateFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7036FF72AE52ADC00A05044 /* StateFlow.swift */; };
 		C704A32A2A9269E200675174 /* lib_ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C704A3292A9269E200675174 /* lib_ios_core.framework */; };
 		C734C1902ADB0FBD00F39518 /* Remember.swift in Sources */ = {isa = PBXBuildFile; fileRef = C734C18F2ADB0FBD00F39518 /* Remember.swift */; };
+		C7DB208A2B00E1F700A24B55 /* CodeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DB20892B00E1F700A24B55 /* CodeBlock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C704A3292A9269E200675174 /* lib_ios_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = lib_ios_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C734C18F2ADB0FBD00F39518 /* Remember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remember.swift; sourceTree = "<group>"; };
 		C7757A632A925E97008B1DDC /* lib_ios_ui_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lib_ios_ui_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DB20892B00E1F700A24B55 /* CodeBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeBlock.swift; sourceTree = "<group>"; };
 		E6309CD32EDFE2A417D62C9B /* Pods_lib_ios_ui_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lib_ios_ui_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 		C704A3152A92685E00675174 /* lib_ios_ui_core */ = {
 			isa = PBXGroup;
 			children = (
+				C7DB20882B00E1EC00A24B55 /* builderWrapper */,
 				C7036FF92AE52B4900A05044 /* propertyWrapper */,
 				C73DDCEC2A9B5B8800FF1DD8 /* type */,
 			);
@@ -118,6 +121,14 @@
 				C704A3122A92685000675174 /* src */,
 			);
 			path = lib_ios_ui_core;
+			sourceTree = "<group>";
+		};
+		C7DB20882B00E1EC00A24B55 /* builderWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C7DB20892B00E1F700A24B55 /* CodeBlock.swift */,
+			);
+			path = builderWrapper;
 			sourceTree = "<group>";
 		};
 		CD00B0CF34158B14CF873FB8 /* Pods */ = {
@@ -235,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7DB208A2B00E1F700A24B55 /* CodeBlock.swift in Sources */,
 				C734C1902ADB0FBD00F39518 /* Remember.swift in Sources */,
 				C7036FF82AE52ADC00A05044 /* StateFlow.swift in Sources */,
 			);
